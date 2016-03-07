@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Twitch Streamers</title>
+<link rel = "stylesheet" href = "style.css" type = "text/css">
+<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src = "api.js"></script>
+<body>
+<div class="container">
+  <div class="row" id="header">
+    <h1>Twitch Streamers</h1>
+    <div class="menu">
+      <div class="selector active" id="all">
+        <div class="circle"></div><p>All</p>
+      </div>
+      <div class="selector" id="online">
+        <div class="circle"></div><p>Online</p>
+      </div>
+      <div class="selector" id="offline">
+        <div class="circle"></div><p>Offline</p>
+      </div>
+    </div>
+  </div>
+  <div id="display">
+  </div>
+  <div class="row" id="footer">
+  </div>
+</div>
+
+</body>
+</html>
